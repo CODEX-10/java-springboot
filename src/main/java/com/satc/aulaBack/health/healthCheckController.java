@@ -70,7 +70,7 @@ public class healthCheckController {
         venda.setFormaPagamento(FormaPagamento.AVISTA);
 
         ItemVenda itemVenda = new ItemVenda(produto, 1000.00, 1.0, 10.00);
-        ItemVenda itemVenda2 = new ItemVenda(servico, 120, 1.0, 10.00);
+        ItemVenda itemVenda2 = new ItemVenda(servico, 120.00, 1.0, 10.00);
 
         venda.addItemVenda(itemVenda);
         venda.addItemVenda(itemVenda2);
